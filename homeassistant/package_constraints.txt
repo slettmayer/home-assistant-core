@@ -51,7 +51,7 @@ openai==3.26.0
 orjson==3.13.0
 packaging>=23.1
 paho-mqtt==2.1.0
-Pillow==12.3.0
+Pillow==13.0.0
 probatio==0.13.0
 propcache==0.5.4
 psutil-home-assistant==0.0.1
@@ -74,7 +74,7 @@ truststore==0.10.4
 typing-extensions>=4.16.0,<5.0
 ulid-transform==2.2.9
 urllib3>=2.0
-uv==0.13.0
+uv==0.13.4
 webrtc-models==0.3.0
 yarl==1.25.1
 zeroconf==0.151.5
@@ -284,7 +284,7 @@ pypasser<1.0.0
 azure-kusto-data==4.5.1
 azure-kusto-ingest==4.5.1
 coloredlogs==15.0.1
-setuptools==84.0.0
+setuptools==84.1.0
 
 # Pin cffi to 2.0.0 to avoid version mismatch with the pre-baked _cffi_backend in the base image.
 # https://github.com/home-assistant/core/issues/175832
